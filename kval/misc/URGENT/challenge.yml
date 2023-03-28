@@ -1,0 +1,25 @@
+title: URGENT! — Cparta Cyber Defense
+description: |
+  Please, help us, someone locked us out of our accounts, we barely managed to collect dumps of lsass from all the computers through our EDR tools when the first alarms went off.
+  Joni told me that she recieved an email that she think was meant for someone else, but she was locked out too shortly after and didn't record it.
+  Could you get the mail that she recieved in outlook?
+  We really would appreciate it! The password for the zip is Sommar2023.
+
+authors:
+  - Cparta Cyber Defense
+categories:
+  - misc
+  - forensics
+
+flag_format_prefix: SSM{
+flags: H0w_D0_y0u_l1k3_th3m_2ppl35
+
+downloadable_files:
+  - http://securecompany.online/
+
+custom:
+  order: 62
+score: 450
+
+challenge_id: 7331075c-6c57-4f6b-9cd1-53309b71fdc6
+spec: 0.0.1

@@ -1,0 +1,22 @@
+title: DNS 101
+description: |
+  DNS är som telefonboken för internet och används bland annat för att översätta domännamn till IP-addresser. 
+  
+  Verktyg som nslookup, dig och Resolve-DNS kan användas för att efterfråga DNS-resurser. Vad har sakerhetssm.se för TXT-records?
+
+authors:
+  - Säkerhets-SM
+categories:
+  - introduktion
+  - lätt
+
+flag_format_prefix: SSM{
+flags: plugga_dns_ctlog_certs_och_annat
+
+custom:
+  order: 6
+
+score: 10
+
+challenge_id: 50fd62ed-8d7a-4e2c-9732-5c3d88fa4d42
+spec: 0.0.1

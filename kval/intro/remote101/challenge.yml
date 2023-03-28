@@ -1,0 +1,27 @@
+title: Remote 101
+description: |
+  En stor del av all dagens kommunikation på internet sker via protokollet Transmission Control Protocol (TCP). För att kommunicera via TCP behöver man två datorer, en som lyssnar och en som ansluter. När man väl har startat en anslutning mellan två datorer kan de prata fritt fram och tillbaka med varandra. I många av utmaningarna i tävlingen ber vi er ansluta till en IP-adress och en port. Se exemplet nedan. IP-adressen berättar vilken dator vi vill ansluta till och porten säger vilket program på den andra datorn vi vill prata med. 
+
+  På i stort sätt alla Linux-system finns verktyget <span style="font-style: italic;">netcat</span> förinstallerat. På macOS kan man hämta det med <a href="https://formulae.brew.sh/formula/netcat">brew</a> och på Windows kan man hämta det från <a href="https://nmap.org/ncat/">Nmap</a>. Man kan använda netcat genom kommandot <code>nc</code> (<code>ncat</code> i terminalen på Windows). Netcat används för att skapa en TCP-anslutning direkt till en IP-adress och port för att kunna kommunicera över internet. Testa att ansluta till IP-adressen och porten som finns till höger (det på <code>nc &lt;ip&gt; &lt;port&gt;</code> formatet) genom att kopiera kommandot och köra det i terminalen. Vem vet, du kanske får flaggan. :o
+
+authors:
+  - Säkerhets-SM
+categories:
+  - introduktion
+  - lätt
+
+flag_format_prefix: SSM{
+flags: congratz!_you_can_now_build_an_internet!
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+custom:
+  order: 4
+
+score: 10
+
+challenge_id: 4fb2ec1d-0409-40ff-bf79-4c48efc2ae21
+spec: 0.0.1

