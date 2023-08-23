@@ -1,0 +1,17 @@
+server {
+  listen 80;
+  listen 443 ssl;
+
+  ssl_certificate     /etc/nginx/website.pem;
+  ssl_certificate_key /etc/nginx/website.pem.key;
+
+  root /var/www/html;
+  index index.html;
+
+  server_name {{ domain }};
+  
+  location / {
+   default_type "text/html";
+   try_files $uri.html $uri $uri/ =404;
+  }
+}

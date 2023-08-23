@@ -1,0 +1,7 @@
+services:
+  challenge:
+    build: .
+    ports:
+    - 50000:5000
+    privileged: true
+version: '3'

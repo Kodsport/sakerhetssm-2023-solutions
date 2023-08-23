@@ -1,0 +1,20 @@
+title: domain curious
+description: |
+  Våra ärkefiender <i>Tjossan AB</i> har länge verkat i skuggorna av internet. Vi har aldrig lyckats ertappa dem med deras fulspel tidigare, då de har arbetat med endast penna och papper. Det verkar dock som att de nyligen har skaffat ett domännamn, <a href="https://www.tjossan.se">tjossan.se</a>, för att nå nya kunder.
+  
+  Vi behöver all kunskap som vi kan få om dessa skurkar, kan du ta reda på vad de håller på med?
+authors:
+  - Movitz Sunar
+categories:
+  - osint
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: 411_y0ur_dn5_4r3_b3löng__t0_u5
+
+challenge_id: 98d27a76-feed-face-bc26-520a5c42c31f
+spec: 0.0.1
+
+custom:
+  order: 81
+score: 200

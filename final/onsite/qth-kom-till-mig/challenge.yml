@@ -1,0 +1,28 @@
+title: Radiohatt
+description: |
+  Jag gick runt på campus här om dagen med min allra finaste hatt, men dum som jag var hade jag bort den någonstans!
+  Som tur var hade jag installerat mitt nödradiosystem i hatten, vill du hjälpa mig lokalisera den?
+  Produktblad är bifogat.
+
+  OBS: För den här uppgiften kommer ni behöva gå ut och gå! Ta gärna med en telefon med GPS så ni inte går vilse. Vi kan endast garantera att challen funkar i c.a. 10 timmar från start av tävling på grund av infrans batteri. Vi kommer ladda batterierna när de dör, men under den tiden kommer challen vara NERE, och vi kan inte garantera hur långt det tar att den kommer upp igen.
+authors:
+  - Jonathan Lööv
+categories:
+  - onsite
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: r4dioh4tt_för_r4diok4tt
+
+downloadable_files:
+  - sstm32-h4tt.pdf
+challenge_id: 06fd8a10-e932-4920-89f1-663c8eb2f635
+
+spec: 0.0.1
+
+custom:
+  order: 11
+score: 313
+
+challenge_id: f62628e4-7567-44e6-95d3-5447e97a427c
+spec: 0.0.1

@@ -1,0 +1,31 @@
+title: ChatSSM
+description: |
+  Vår nya chattbot ChatSSM#1677 kommer definitivt inte läcka flaggan till dig. Du kan hitta den i Kodsports discord. Använd !reset för att starta om konversationen.
+
+  Den här uppgiften använder sig av, och med vägledning är helt skriven av ChatGPT.
+
+authors:
+  - Mateusz Drwal
+categories:
+  - misc
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: ch4755m_4l5k4r_fl4660r
+
+deployment:
+  type: docker
+  containers:
+    chall:
+      image: .
+
+
+# downloadable_files:
+  # - bot.py
+
+challenge_id: 4982ef25-7100-4033-b17b-3c2db6ecd37a
+spec: 0.0.1
+
+custom:
+  order: 71
+score: 150

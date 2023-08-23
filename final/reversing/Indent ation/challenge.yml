@@ -1,0 +1,25 @@
+title: Inden'tation
+description: |
+  Mina kolegor klagar på att koden är ful, men va gör det för skillnad om den kör ändå?
+  (Kräver gcc och wsl för windows)
+  (Uppgiften är trasig, de sista två bytes:en av nyckeln går inte att bestämma. Hittar man de första fyra anses uppgiften löst)
+authors:
+  - Adrian Wireklint
+categories:
+  - reversing
+
+# set the flag_format_prefix to `null` to not use the flag format
+flag_format_prefix: SSM{
+flags: au70foRm4t_Ma5t3rraC3
+
+downloadable_files:
+  - main.cpp
+  - run.sh
+  - Hello World.txt
+
+challenge_id: c1157ff4-8888-465e-bebb-83f88e346023
+spec: 0.0.1
+
+custom:
+  order: 33
+score: 300

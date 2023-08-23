@@ -1,0 +1,4 @@
+4, 192, 202, 40, 129, 27
+
+Challen går inte att lösa eftersom jag är dum ;-;
+De sista två bytes:en är underdefinierade och går inte att hitta, hittar du de första fyra är uppgiften löst.

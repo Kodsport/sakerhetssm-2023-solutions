@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="datasheet.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.78741022"
+     inkscape:cx="390.52071"
+     inkscape:cy="581.01862"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="true" />
+  <defs
+     id="defs2">
+    <rect
+       x="63.499303"
+       y="1041.3886"
+       width="666.74268"
+       height="116.82527"
+       id="rect74389" />
+    <rect
+       x="9.8781732"
+       y="246.95433"
+       width="320.40039"
+       height="878.28449"
+       id="rect38086" />
+    <rect
+       x="530.85417"
+       y="640.70796"
+       width="250.82225"
+       height="60.324337"
+       id="rect34264" />
+    <rect
+       x="26.042457"
+       y="122.13014"
+       width="356.51226"
+       height="105.96583"
+       id="rect24408" />
+    <rect
+       x="31.430551"
+       y="27.838488"
+       width="329.57178"
+       height="80.821416"
+       id="rect20486" />
+    <rect
+       x="382.55471"
+       y="13.969847"
+       width="394.67676"
+       height="214.12612"
+       id="rect3865" />
+    <rect
+       x="382.55471"
+       y="13.969847"
+       width="394.67676"
+       height="214.12612"
+       id="rect12860" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect76344"
+       width="210"
+       height="297"
+       x="0"
+       y="0"
+       ry="0" />
+  </g>
+  <g
+     inkscape:label="Lager 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g28330"
+       transform="matrix(0.95008158,0,0,0.93989173,-6.5677144,9.4223818)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.18877127,0,0,0.18877127,52.849397,16.458336)"
+         id="text3863"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.126px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:end;white-space:pre;shape-inside:url(#rect3865)"
+         x="355.44424"
+         y="0"><tspan
+           x="480.75713"
+           y="42.080953"
+           id="tspan2277">SSeMiconductors</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path7245"
+         cx="141.27171"
+         cy="15.007196"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="139.23747"
+         y="15.981936"
+         id="text10881"><tspan
+           sodipodi:role="line"
+           id="tspan10879"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="139.23747"
+           y="15.981936">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11780"
+         cx="156.37341"
+         cy="15.007196"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="154.33917"
+         y="15.981936"
+         id="text11784"><tspan
+           sodipodi:role="line"
+           id="tspan11782"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="154.33917"
+           y="15.981936">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11786"
+         cx="141.27171"
+         cy="30.1089"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="139.23747"
+         y="31.083639"
+         id="text11790"><tspan
+           sodipodi:role="line"
+           id="tspan11788"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="139.23747"
+           y="31.083639">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11792"
+         cx="156.37341"
+         cy="30.1089"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="154.33917"
+         y="31.083639"
+         id="text11796"><tspan
+           sodipodi:role="line"
+           id="tspan11794"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="154.33917"
+           y="31.083639">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11798"
+         cx="171.47513"
+         cy="15.007196"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="169.44089"
+         y="15.981936"
+         id="text11802"><tspan
+           sodipodi:role="line"
+           id="tspan11800"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="169.44089"
+           y="15.981936">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11804"
+         cx="186.57684"
+         cy="15.007196"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="184.5426"
+         y="15.981936"
+         id="text11808"><tspan
+           sodipodi:role="line"
+           id="tspan11806"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="184.5426"
+           y="15.981936">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11810"
+         cx="171.47513"
+         cy="30.1089"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="169.44089"
+         y="31.083639"
+         id="text11814"><tspan
+           sodipodi:role="line"
+           id="tspan11812"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="169.44089"
+           y="31.083639">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11816"
+         cx="186.57684"
+         cy="30.1089"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="184.5426"
+         y="31.083639"
+         id="text11820"><tspan
+           sodipodi:role="line"
+           id="tspan11818"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="184.5426"
+           y="31.083639">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11822"
+         cx="201.67856"
+         cy="15.007196"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="199.64432"
+         y="15.981936"
+         id="text11826"><tspan
+           sodipodi:role="line"
+           id="tspan11824"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="199.64432"
+           y="15.981936">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle11834"
+         cx="201.67856"
+         cy="30.1089"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="199.64432"
+         y="31.083639"
+         id="text11838"><tspan
+           sodipodi:role="line"
+           id="tspan11836"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="199.64432"
+           y="31.083639">Si</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 144.15354,15.007197 h 9.33804"
+         id="path12302" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 141.27171,17.889029 v 9.338037"
+         id="path12304" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 159.25525,15.007197 h 9.33804"
+         id="path12390" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 174.35696,15.007197 h 9.33805"
+         id="path12394" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 189.45867,15.007197 h 9.33805"
+         id="path12398" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 156.37342,17.889029 v 1.75696"
+         id="path12628" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 171.47513,17.889029 v 1.75696"
+         id="path12710" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186.57684,17.889029 v 1.75696"
+         id="path12712" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186.57685,25.470106 v 1.756961"
+         id="path12714" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 171.47513,25.470106 v 1.756961"
+         id="path12716" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 156.37342,25.470106 v 1.756961"
+         id="path12718" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 144.15354,30.108899 h 9.33804"
+         id="path12802" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 159.25525,30.108899 h 9.33804"
+         id="path12804" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 174.35696,30.108899 h 9.33805"
+         id="path12806" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 189.45867,30.108899 h 9.33805"
+         id="path12808" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 201.67856,17.889029 v 9.338037"
+         id="path12810" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle12818"
+         cx="156.37341"
+         cy="45.210606"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="154.33917"
+         y="46.185345"
+         id="text12822"><tspan
+           sodipodi:role="line"
+           id="tspan12820"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="154.33917"
+           y="46.185345">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle12824"
+         cx="171.47513"
+         cy="45.210606"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="169.44089"
+         y="46.185345"
+         id="text12828"><tspan
+           sodipodi:role="line"
+           id="tspan12826"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="169.44089"
+           y="46.185345">Si</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle12830"
+         cx="186.57684"
+         cy="45.210606"
+         r="2.8818326" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.56733px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;stroke-width:0.188771"
+         x="184.5426"
+         y="46.185345"
+         id="text12834"><tspan
+           sodipodi:role="line"
+           id="tspan12832"
+           style="font-size:3.56733px;stroke-width:0.188771"
+           x="184.5426"
+           y="46.185345">Si</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 159.25525,45.210602 h 9.33804"
+         id="path12850" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 174.35696,45.210602 h 9.33805"
+         id="path12852" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.18877127,0,0,0.18877127,31.550596,31.608443)"
+         id="text12858"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2362px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:end;white-space:pre;shape-inside:url(#rect12860)"
+         x="355.44424"
+         y="0"><tspan
+           x="702.82302"
+           y="40.427378"
+           id="tspan2279">2023</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 156.37342,32.990732 v 9.338037"
+         id="path13842" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186.57685,32.990732 v 9.338037"
+         id="path13844" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 171.47513,32.990732 v 1.75696"
+         id="path13848" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.713466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 171.47513,40.571809 v 1.75696"
+         id="path13854" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25137575,0,0,0.24867968,5.1707336,8.9757453)"
+       id="text20484"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.9134px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';white-space:pre;shape-inside:url(#rect20486)"><tspan
+         x="31.429688"
+         y="74.137115"
+         id="tspan2285"><tspan
+   style="font-weight:bold"
+   id="tspan2281">SS</tspan>t<tspan
+   style="font-weight:bold"
+   id="tspan2283">M</tspan>32H4TT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.25137575,0,0,0.24867968,5.1707336,8.9757453)"
+       id="text24406"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4567px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';white-space:pre;shape-inside:url(#rect24408)"><tspan
+         x="26.042969"
+         y="145.28047"
+         id="tspan2287">Emergency hat local-</tspan><tspan
+         x="26.042969"
+         y="178.35135"
+         id="tspan2289">ization system over </tspan><tspan
+         x="26.042969"
+         y="211.42223"
+         id="tspan2291">ham radio</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.862982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 21.319927,81.573578 H 188.12368"
+       id="path28183" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect28354"
+       width="91.560493"
+       height="59.143715"
+       x="-178.54874"
+       y="124.3506"
+       ry="4.0633321"
+       transform="rotate(-90)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.862982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 21.319927,259.66883 H 188.12368"
+       id="path71041" />
+    <text
+       xml:space="preserve"
+       id="text74387"
+       style="font-size:11.9988px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:center;white-space:pre;shape-inside:url(#rect74389)"
+       transform="matrix(0.25137575,0,0,0.24867968,5.1707336,14.267412)"><tspan
+         x="245.53857"
+         y="1051.8876"
+         id="tspan2293">Public document from SSeMiconductors inc.
+</tspan><tspan
+         x="396.87109"
+         y="1066.8862"
+         id="tspan2295">
+</tspan><tspan
+         x="252.92064"
+         y="1081.8847"
+         id="tspan2297">Contact us at https://60.nu/contact/ to
+</tspan><tspan
+         x="278.7579"
+         y="1096.8832"
+         id="tspan2299">access the uncensored datasheet.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.377989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.95022,131.37567 c -9.62729,3.01774 -10.14384,7.31331 -10.2158,9.79041 -0.0719,2.4771 2.61734,5.16394 6.10553,7.77706 3.4882,2.61311 9.05855,6.11901 14.00683,7.57967 4.84481,1.43012 10.57495,1.38172 14.88474,0.47373 3.82814,-0.80651 8.14491,-3.43426 9.81674,-5.48737 1.67183,-2.05311 2.62373,-6.48208 1.95537,-9.82988 -0.62591,-3.13512 -5.88226,-8.39273 -8.30035,-9.8299 -2.35231,-1.39808 -7.30269,-2.8029 -7.30269,-2.8029"
+       id="path30167"
+       sodipodi:nodetypes="czzsszssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.377989;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.31174,141.04764 c 0,0 0.27933,-7.02699 0.47886,-8.52713 0.19953,-1.50014 0.95773,-4.8952 1.4366,-5.48737 0.47886,-0.59216 2.35442,-2.0923 2.99291,-2.36864 0.63848,-0.27634 3.31215,-1.5791 4.98818,-1.53962 1.67603,0.0395 3.87083,0.71059 5.30743,1.73701 1.4366,1.02641 8.69939,5.6058 9.33787,6.39534 0.6385,0.78955 1.19717,5.92163 1.51641,7.73759 0.31925,1.81596 0.39906,3.27663 0.39906,3.27663"
+       id="path30905" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.188995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.377989, 0.188995;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 169.3301,139.23168 c -0.87792,3.00028 -0.75821,3.47402 -2.9131,5.09259 -2.1549,1.61858 -3.79102,2.28969 -7.54213,2.68447 -3.75112,0.39477 -8.14072,-0.51321 -10.69466,-1.89492 -2.55396,-1.38171 -3.95064,-3.1582 -4.90838,-5.96109"
+       id="path30907" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.188995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.377989, 0.188995;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 169.80897,142.07406 c -1.15726,3.63192 -1.83566,4.77677 -4.19008,5.88214 -2.35443,1.10536 -7.2628,2.76343 -11.33316,1.73701 -4.07035,-1.02642 -6.82382,-1.9344 -8.69938,-4.34253 -1.87556,-2.40812 -1.99528,-3.07923 -2.35443,-4.5399"
+       id="path30909" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.188995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.377989, 0.188995;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 143.8305,132.20469 c -3.79101,1.9344 -4.66893,2.13179 -6.42477,3.71089 -1.75585,1.57909 -3.43743,4.40883 -2.79338,6.6322 0.78009,2.693 2.68606,3.70271 4.38959,5.0926 1.7069,1.39263 9.95041,6.98617 13.80729,8.52713 3.60909,1.44196 10.08323,2.26509 16.32134,0.75007 6.23492,-1.51424 8.26031,-4.81662 9.33788,-7.65862 1.07767,-2.8423 1.5164,-6.15848 0.39905,-8.36922 -1.11735,-2.21074 -2.99291,-5.48737 -6.5844,-8.05341 -3.59149,-2.56603 -5.78629,-2.56603 -5.78629,-2.56603"
+       id="path31612"
+       sodipodi:nodetypes="cssssssssc" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.377989;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path32290"
+       cx="149.37587"
+       cy="125.09244"
+       rx="1.4814147"
+       ry="0.75369918" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.250024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 149.30531,125.7903 c 0,0 0.59257,-30.901666 2.65244,-34.865566"
+       id="path32405" />
+    <text
+       xml:space="preserve"
+       id="text34262"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.9134px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';white-space:pre;shape-inside:url(#rect34264)"
+       transform="matrix(0.25137575,0,0,0.24867968,5.1707336,8.9757453)" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.66984px;line-height:1.25;font-family:sax2;-inkscape-font-specification:sax2;text-align:center;text-anchor:middle;stroke-width:0.250024"
+       x="155.69165"
+       y="186.66086"
+       id="text34768"
+       transform="scale(1.0054061,0.99462296)"><tspan
+         sodipodi:role="line"
+         id="tspan34766"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66984px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:center;text-anchor:middle;stroke-width:0.250024"
+         x="155.69165"
+         y="186.66086">Fig.01</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66984px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:center;text-anchor:middle;stroke-width:0.250024"
+         x="155.69165"
+         y="194.03165"
+         id="tspan34770">SStM32H4TT installed</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.66984px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';text-align:center;text-anchor:middle;stroke-width:0.250024"
+         x="155.69165"
+         y="201.40244"
+         id="tspan55724">inside a hat.</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text38084"
+       style="font-size:15.9985px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';white-space:pre;shape-inside:url(#rect38086)"
+       transform="matrix(0.25137575,0,0,0.24867968,12.227094,27.538883)"><tspan
+         x="9.8789062"
+         y="260.95377"
+         id="tspan2301">  The SStM32H4TT is an emer-</tspan><tspan
+         x="9.8789062"
+         y="280.9519"
+         id="tspan2303">gency localization system to </tspan><tspan
+         x="9.8789062"
+         y="300.95004"
+         id="tspan2305">avoid losing your hats. Inter-</tspan><tspan
+         x="9.8789062"
+         y="320.94818"
+         id="tspan2307">nal studies at SSeMiconductors </tspan><tspan
+         x="9.8789062"
+         y="340.94632"
+         id="tspan2309">Inc. have showed wearing hats </tspan><tspan
+         x="9.8789062"
+         y="360.94446"
+         id="tspan2311">with an SStM32H4TT system </tspan><tspan
+         x="9.8789062"
+         y="380.9426"
+         id="tspan2313">enabled reduces the long-term </tspan><tspan
+         x="9.8789062"
+         y="400.94073"
+         id="tspan2315">risk of hat loss by up to and </tspan><tspan
+         x="9.8789062"
+         y="420.93887"
+         id="tspan2317">over 62.1%.
+</tspan><tspan
+         x="9.8789062"
+         y="440.93701"
+         id="tspan2319">  SStM32H4TT communicates with </tspan><tspan
+         x="9.8789062"
+         y="460.93515"
+         id="tspan2321">the user at the UHF 70cm ham </tspan><tspan
+         x="9.8789062"
+         y="480.93329"
+         id="tspan2323">radio band. It sends a message </tspan><tspan
+         x="9.8789062"
+         y="500.93143"
+         id="tspan2325">containing the coordinates of </tspan><tspan
+         x="9.8789062"
+         y="520.92957"
+         id="tspan2327">the device, along with a pic-</tspan><tspan
+         x="9.8789062"
+         y="540.9277"
+         id="tspan2329">ture of it's surroundings. To </tspan><tspan
+         x="9.8789062"
+         y="560.92581"
+         id="tspan2331">receive this data, an SDR such </tspan><tspan
+         x="9.8789062"
+         y="580.92392"
+         id="tspan2333">as the provided SSM-brand RTL-</tspan><tspan
+         x="9.8789062"
+         y="600.92203"
+         id="tspan2335">SDR is recommended to easily </tspan><tspan
+         x="9.8789062"
+         y="620.92014"
+         id="tspan2337">record the data to later be </tspan><tspan
+         x="9.8789062"
+         y="640.91824"
+         id="tspan2339">decoded by a computer.
+</tspan><tspan
+         x="9.8789062"
+         y="660.91635"
+         id="tspan2341">  The transmission consists of </tspan><tspan
+         x="9.8789062"
+         y="680.91446"
+         id="tspan2343">two overlaid signals. One signal </tspan><tspan
+         x="9.8789062"
+         y="700.91257"
+         id="tspan2345">over [REDACTED] (30WPM, 600Hz) </tspan><tspan
+         x="9.8789062"
+         y="720.91067"
+         id="tspan2347">contains information the </tspan><tspan
+         x="9.8789062"
+         y="740.90878"
+         id="tspan2349">registered user's callsign and </tspan><tspan
+         x="9.8789062"
+         y="760.90689"
+         id="tspan2351">the device's [REDACTED] in the </tspan><tspan
+         x="9.8789062"
+         y="780.905"
+         id="tspan2353">MAIDENHEAD format. The second </tspan><tspan
+         x="9.8789062"
+         y="800.90311"
+         id="tspan2355">signal transmits images from the </tspan><tspan
+         x="9.8789062"
+         y="820.90121"
+         id="tspan2357">devices camera over the </tspan><tspan
+         x="9.8789062"
+         y="840.89932"
+         id="tspan2359">[REDACETD] mode of the </tspan><tspan
+         x="9.8789062"
+         y="860.89743"
+         id="tspan2361">[REDACTED] picture format. </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.77989px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.250024"
+       x="107.25264"
+       y="216.14561"
+       id="text62541"
+       transform="scale(1.0054061,0.99462296)"><tspan
+         sodipodi:role="line"
+         id="tspan62539"
+         style="font-weight:bold;font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="216.14561">Device characteristics:</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="220.87048"
+         id="tspan63679" /><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="225.59534"
+         id="tspan65539">Transmission frequency: 434.450MHz</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="230.32021"
+         id="tspan65543">Transmission mode: 12.5kHz FM (narrow-FM)</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="235.04506"
+         id="tspan65545">Transmission schedule: every whole 5</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="239.76993"
+         id="tspan66823">  minutes (08:00, 08:05, 08:10...)</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="244.4948"
+         id="tspan66825">Transmission power: 0.5W</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.77989px;stroke-width:0.250024"
+         x="107.25264"
+         y="249.21965"
+         id="tspan69851">Battery time: about 10 hours.</tspan></text>
+  </g>
+</svg>

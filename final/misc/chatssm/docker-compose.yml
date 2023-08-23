@@ -1,0 +1,5 @@
+services:
+  chall:
+    build: .
+    ports: []
+version: '3'

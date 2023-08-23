@@ -1,0 +1,54 @@
+---
+- hosts: all
+  become: true
+  vars_files:
+  - terraform_output/ansible_vars.yml
+  tasks:
+    - name: Update apt cache and install Nginx
+      apt:
+        name: nginx
+        state: latest
+        update_cache: yes
+
+    - name: Copy website files to the server's document root
+      copy:
+        src: "./website/src/"
+        dest: "/var/www/html"
+        mode: preserve
+
+    - name: Apply Nginx template
+      copy:
+        src: terraform_output/cert/
+        dest: /etc/nginx/
+      notify: Restart Nginx
+
+    - name: Apply Nginx template
+      template:
+        src: website/nginx.conf.j2
+        dest: /etc/nginx/sites-available/default
+      notify: Restart Nginx
+
+    - name: Enable new site
+      file:
+        src: /etc/nginx/sites-available/default
+        dest: /etc/nginx/sites-enabled/default
+        state: link
+      notify: Restart Nginx
+
+    - name: Allow all access to tcp port 80
+      ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+
+    - name: Allow all access to tcp port 433
+      ufw:
+        rule: allow
+        port: '443'
+        proto: tcp
+
+  handlers:
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted

@@ -1,0 +1,3 @@
+# chatssm
+
+`bot.py`, i sin helhet, är skrivet av ChatGPT för att jag undrade hur bra den var på sånt. Det gick jättebra på början när den genererade boilerplaten extremt snabbt och gav en funktionerande DM bot på bara några minuter, men det blev extremt segt att få den att implementera mer detaljer. Man behöver i dagsläget förklara vad man vill att den ska göra och exakt hur den ska implementera det, och sen kolla om den gjort slarvfel (t.ex. att blanda sync funktioner med async, som den inte lyckades fixa på egen hand efter att den blev tillsagd). Verkar inte vara realistiskt att skriva komplett mjukvara med ChatGPT i dagsläget, men ska bli spännande att se hur teknologin utvecklas vidare.
